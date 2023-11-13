@@ -27,6 +27,7 @@ Following instructions can clone and build VClinic with multiple example client 
 ```
 git clone --recursive https://github.com/VClinic/VClinic.git
 cd VClinic
+git submodule update --init --recursive
 ./build.sh
 ```
 
